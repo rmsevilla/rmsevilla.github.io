@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Chocobunnies Database</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="database.html">Chocobunnies Database</a></li>
+							<li><a href="fileSystem.html">File System</a></li>
+							<li><a href="onlineListings.html">Online Listings</a></li>
+							<li><a href="virtualOrchestra.html">Virtual Orchestra</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Chocobunnies Database</h1>
+							<a href="https://github.com/rmsevilla/chocobunnies-database"><button>See the full project reports</button></a>
+
+							<p>The purpose of this project is to practice database concepts by designing and implementing a database using MySQL.
+								The project was split into two phases. The first phase of the project focused on exploring the database design
+								process, where my team and I had to brainstorm a concept to create Entity Relationship(ER) models, and relational schemas for. 
+								These ER models and relational schemas had to be clear, and easily be understood in order to be later translated to MySQL. 
+								After brainstorming the type of database we wanted to design, we had to implement the database using MySQL for phase 2. 
+							</p>
+
+							<p>For phase 1, my teammates and I envisioned a database for an imaginary online chocolate shop called, Chocobunnies. This online chocolate shop
+								sells an assortment of chocolates that customers can choose from. This shop allows users to sign up as a seller or a customer. If a user is a seller,
+								then they are given the permission to post chocolate products, each with a corresponding price and picture. If the user is a customer, 
+								then the customers are able to add products to their cart, edit the quantities of each product they want, make transactions, and leave reviews for each
+								product. A glimpse of the database's ER diagram and relational schemas can be seen below.
+							</p>
+
+							<p>
+								<img src = "images/chocobunniesER.png" alt="" class="imgCenter" width="500" height="600">
+							</p>
+
+							<p>
+								<img src = "images/chocobunniesRelational.png" alt="" class="imgCenter" width="600" height="500">
+							</p>
+
+							<p>
+								<img src = "images/chocobunniesRelationships.png" alt="" class="imgCenter" width="500" height="400">
+							</p>
+							
+							<p>
+								For phase 2, we had to implement our database design using MySQL.
+								We had to create the tables, an index, and a view. Additionally, we had to come up with
+								select queries to showcase our database's functionality. Screenshots of the tables, queries, indexes, and view 
+								can be found below. 
+							</p>
+
+							<p>
+								<h3 style="text-align: center;">Tables</h3>
+
+								<img src ="images/dbTable1.png" alt="" class="imgCenter" width="500" height="600">
+								<img src = "images/dbTable2.png" alt="" class="imgCenter"width="500" height="600">
+
+							</p>
+
+							<p>
+								<h3 style="text-align: center;">Index</h3>
+
+								<img src = "images/dbIndex.png" alt="" class="imgCenter" width="310" height="100">
+
+							</p>
+
+							<p>
+								<h3 style="text-align: center;">View</h3>
+
+								<img src = "images/dbView.png" alt="" class="imgCenter" width="300" height="100">
+
+							</p>
+
+							<p>
+								<h3 style="text-align: center;">Queries</h3>
+
+								<h4 style="text-align: center;">Most expensive product from each seller</h4>
+								<img src ="images/dbMostExpensive.png" alt="" class="imgCenter" width="350" height="200">
+
+								<h4 style="text-align: center;">Finding users' ids and usernames, that sell more than two products</h4>
+								<img src ="images/dbUserIdUser.png" alt="" class="imgCenter" width="350" height="200">
+
+								<h4 style="text-align: center;">Users that sell products that cost $5</h4>
+								<img src ="images/dbCostFive.png" alt="" class="imgCenter" width="530" height="230">
+
+								<h4 style="text-align: center;">Finding the most expensive product on the site</h4>
+								<img src ="images/dbMostExpensiveOverall.png" alt="" class="imgCenter" width="530" height="200">
+
+							</p>
+
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Get in touch</h2>
+									<ul class="icons">
+										<li><a href="https://github.com/rmsevilla" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+										<li><a href="https://www.linkedin.com/in/rmsevilla/" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
