@@ -33,6 +33,15 @@ body {
 	line-height: 1;
 }
 
+.image-container {
+	display: inline-block;
+  }
+  
+  .image-container img {
+	display: inline-block;
+	width: 50%;
+  }
+
 ol, ul {
 	list-style: none;
 }
